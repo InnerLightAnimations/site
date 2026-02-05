@@ -27,5 +27,9 @@ export default defineNuxtConfig({
         strategy: "prefix_except_default",
     },
 
+    app: {
+        baseURL: "/site/",
+    },
+
     compatibilityDate: "2025-01-15",
 });
