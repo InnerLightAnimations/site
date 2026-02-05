@@ -49,13 +49,12 @@ export default defineContentConfig({
         }),
         blog_fr: defineCollection({
             type: "page",
-            // source: "fr/blog/*.md",
             source: {
                 include: "fr/blog/*.md",
                 prefix: "blog/",
             },
             schema: blogSchema,
-s       }),
+        }),
         blog_en: defineCollection({
             type: "page",
             source: {
