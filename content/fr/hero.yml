@@ -1,0 +1,28 @@
+title: ILA Communication
+description: Une communication sincère et sensible pour les entreprises qui veulent être comprises, mémorisées et respectées.
+links:
+    - label: Parlons de votre image
+      to: "mailto:contact@innerlightanimations.fr"
+heroImage: /logo.png
+
+features:
+    - title: Identité de marque
+      description: Création de logo, identité visuelle, palettes de couleurs, typographies et chartes graphiques cohérentes et durables.
+      image: /identity.png
+    - title: Stratégie de communication
+      description: Définition du ton, des messages, des accroches et de la manière dont vous parlez à vos clients.
+      image: /strategy.png
+    - title: Réseaux sociaux & contenu
+      description: Visuels, animations et contenus pensés pour les réseaux sociaux, alignés avec vos valeurs.
+      image: /social-network.png
+
+about:
+    title: Notre approche
+    description: Issu d’Inner Light Animations, ILA Communication place l’émotion et le sens au cœur de chaque message. Communiquer, c’est créer un lien.
+
+contact:
+    title: Contact
+    links:
+        - label: Me contacter
+          icon: lucide:mail
+          to: "mailto:contact@innerlightanimations.fr"
