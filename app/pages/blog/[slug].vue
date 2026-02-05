@@ -11,7 +11,7 @@ const { data: post } = useAsyncData(
     () => {
         const collection = ("blog_" + locale.value) as "blog_fr" | "blog_en";
 
-        return queryCollection(collection).path(route.path).first();
+        return queryCollection(collection).path(`/blog/${slug.value}`).first();
     },
     { watch: [locale] },
 );

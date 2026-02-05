@@ -24,6 +24,7 @@ export default defineNuxtConfig({
             },
         ],
         langDir: "locales",
+        strategy: "prefix_except_default",
     },
 
     compatibilityDate: "2025-01-15",
